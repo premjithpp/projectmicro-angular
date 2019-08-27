@@ -1,0 +1,47 @@
+#head {
+    margin-left: 50px;
+  }
+  #heading{
+    opacity: 0.8;
+  }
+  
+  .checked{
+    color: orange;
+  }
+  
+  .elements{
+    color: white;
+  }
+  .bg {
+      background-image: url("../src/assets/images/desktop.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding-bottom: 10px;
+      height: 100%;
+    }
+  
+  
+  .input-group.md-form.form-sm.form-2 input {
+  border: 1px solid #bdbdbd;
+  border-top-left-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+  }
+  
+  
+    .modal-header, h4, .close {
+      background-color:black;
+      color:white !important;
+      text-align: left;
+      font-size: 30px;
+    }
+    .modal-footer {
+      background-color: #f9f9f9;
+    }
+  
+    #signup:hover{
+      color:blue;
+    }
+    .page-footer{
+      opacity: 0.8;
+    }
