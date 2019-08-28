@@ -10,6 +10,20 @@ import { SearchComponent } from './search/search.component';
 import { TraineeLandingComponent } from './trainee-landing/trainee-landing.component';
 import { TraineeCompleatedComponent } from './trainee-compleated/trainee-compleated.component';
 import { TraineeCurrentComponent } from './trainee-current/trainee-current.component';
+import { SearchTrainersComponent } from './search-trainers/search-trainers.component';
+import { TrainerSignupComponent } from './trainer-signup/trainer-signup.component';
+import { TraineeSignupComponent } from './trainee-signup/trainee-signup.component';
+import { TrainerLandingComponent } from './trainer-landing/trainer-landing.component';
+import { TrainerEditskillsComponent } from './trainer-editskills/trainer-editskills.component';
+import { TrainerCurrentComponent } from './trainer-current/trainer-current.component';
+import { TrainerCompleatedComponent } from './trainer-compleated/trainer-compleated.component';
+import { TrainerPaymentComponent } from './trainer-payment/trainer-payment.component';
+import { AdminLandingComponent } from './admin-landing/admin-landing.component';
+import { AdminSkillComponent } from './admin-skill/admin-skill.component';
+import { AdminPaymentreportComponent } from './admin-paymentreport/admin-paymentreport.component';
+import { AdminTrainigreportComponent } from './admin-trainigreport/admin-trainigreport.component';
+import { AdminUsersaccountComponent } from './admin-usersaccount/admin-usersaccount.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +34,20 @@ import { TraineeCurrentComponent } from './trainee-current/trainee-current.compo
     SearchComponent,
     TraineeLandingComponent,
     TraineeCompleatedComponent,
-    TraineeCurrentComponent
+    TraineeCurrentComponent,
+    SearchTrainersComponent,
+    TrainerSignupComponent,
+    TraineeSignupComponent,
+    TrainerLandingComponent,
+    TrainerEditskillsComponent,
+    TrainerCurrentComponent,
+    TrainerCompleatedComponent,
+    TrainerPaymentComponent,
+    AdminLandingComponent,
+       AdminSkillComponent,
+    AdminPaymentreportComponent,
+    AdminTrainigreportComponent,
+    AdminUsersaccountComponent
   ],
   imports: [
     BrowserModule,

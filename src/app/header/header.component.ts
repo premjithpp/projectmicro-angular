@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    var direct="";
+   }
 
   ngOnInit() {
+  }
+  login(direct){
+    
   }
 
 }
