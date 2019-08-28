@@ -1,8 +1,19 @@
 #head {
     margin-left: 50px;
   }
-  #heading{
+  header{
     opacity: 0.8;
+  }
+  .message{
+    /* padding: 100px 0px 0px 30px;
+    color:white; */
+    width: 600px;
+    color: white;
+    /* border: 5px solid green; */
+    padding: 0px 0px 0px 0px;
+    margin: 100px 0px 0px 375px;
+    background-color: #343a40;
+    background-color: rgba(0, 0, 0, 0.7);
   }
   
   .checked{
@@ -17,7 +28,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 37.5rem;
+    padding-bottom: 15.4rem;
     height: 100%;
   }
 

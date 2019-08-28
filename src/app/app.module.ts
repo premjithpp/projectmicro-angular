@@ -23,6 +23,10 @@ import { AdminSkillComponent } from './admin-skill/admin-skill.component';
 import { AdminPaymentreportComponent } from './admin-paymentreport/admin-paymentreport.component';
 import { AdminTrainigreportComponent } from './admin-trainigreport/admin-trainigreport.component';
 import { AdminUsersaccountComponent } from './admin-usersaccount/admin-usersaccount.component';
+import { HeaderLoginComponent } from './header-login/header-login.component';
+import { HeaderSignupComponent } from './header-signup/header-signup.component';
+import { HeaderTrainerComponent } from './header-trainer/header-trainer.component';
+import { AdminHeaderComponent } from './admin-header/admin-header.component';
 
 
 @NgModule({
@@ -47,7 +51,11 @@ import { AdminUsersaccountComponent } from './admin-usersaccount/admin-usersacco
        AdminSkillComponent,
     AdminPaymentreportComponent,
     AdminTrainigreportComponent,
-    AdminUsersaccountComponent
+    AdminUsersaccountComponent,
+    HeaderLoginComponent,
+    HeaderSignupComponent,
+    HeaderTrainerComponent,
+    AdminHeaderComponent
   ],
   imports: [
     BrowserModule,
