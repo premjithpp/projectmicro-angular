@@ -18,10 +18,14 @@ import{AdminPaymentreportComponent} from './admin-paymentreport/admin-paymentrep
 import{AdminSkillComponent} from './admin-skill/admin-skill.component';
 import{AdminTrainigreportComponent} from './admin-trainigreport/admin-trainigreport.component';
 import{AdminUsersaccountComponent} from './admin-usersaccount/admin-usersaccount.component';
+import{ AdminLoginComponent} from './admin-login/admin-login.component'
 const routes: Routes = [
   {
     path: '', component: IndexBagroundComponent,
 
+  },
+  {
+path:'admin',component:AdminLoginComponent,
   },
   {
     path: 'trainer-current', component: TrainerCurrentComponent,

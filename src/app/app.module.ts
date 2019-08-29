@@ -27,6 +27,8 @@ import { HeaderLoginComponent } from './header-login/header-login.component';
 import { HeaderSignupComponent } from './header-signup/header-signup.component';
 import { HeaderTrainerComponent } from './header-trainer/header-trainer.component';
 import { AdminHeaderComponent } from './admin-header/admin-header.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
 
 
 @NgModule({
@@ -55,11 +57,14 @@ import { AdminHeaderComponent } from './admin-header/admin-header.component';
     HeaderLoginComponent,
     HeaderSignupComponent,
     HeaderTrainerComponent,
-    AdminHeaderComponent
+    AdminHeaderComponent,
+    AdminLoginComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
