@@ -28,25 +28,17 @@
 
         </thead>
         <tbody>
-            <tr>
-                <td>Anitha Pathadan</td>
-                <td>Spring</td>
-                <td>Harry Potter
+            <tr  *ngFor="let display of result">
+                <td>{{display.name}}</td>
+                <td>{{display.Course}}</td>
+                <td>{{display.trainer}}
                 </td>
-                <td>&#8377;20,000</td>
-                <td>20%</td>
-                <td>22-Dec-2018</td>
+                <td>&#8377;{{display.fee}}</td>
+                <td>{{display.commision}}%</td>
+                <td>{{display.date}}</td>
             </tr>
 
-            <tr>
-                <td>Sharon Paul</td>
-                <td>Angular</td>
-                <td>Hermionie Gringer
-                </td>
-                <td>&#8377;10,000</td>
-                <td>10%</td>
-                <td>02-Jan-2019</td>
-            </tr>
+           
         </tbody>
     </table>
 

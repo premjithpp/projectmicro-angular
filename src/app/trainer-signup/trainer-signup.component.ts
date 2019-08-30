@@ -19,6 +19,7 @@ export class TrainerSignupComponent implements OnInit {
         age: ['', Validators.required],
         qualification:['',Validators.required],
         skills:['',Validators.required],
+        linkdin:[''],
         email: ['', [Validators.required, Validators.email]],
         password: ['', [Validators.required, Validators.minLength(8)]],
         confirmpassword: ['', Validators.required]

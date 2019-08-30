@@ -20,6 +20,7 @@ export class TraineeSignupComponent implements OnInit {
         lastname: ['', Validators.required],
         phone: ['', [Validators.required, Validators.minLength(10), Validators.maxLength(10)]],
         age: ['', Validators.required],
+        linkdin: [''],
         email: ['', [Validators.required, Validators.email]],
         password: ['', [Validators.required, Validators.minLength(8)]],
         confirmpassword: ['', Validators.required]

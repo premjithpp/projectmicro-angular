@@ -36,6 +36,11 @@
     </div>
     <div class="form-group">
 
+        <input type="text" name="linkdin" placeholder="Linkdin profile link" class="form-control" formControlName="linkdin"/>
+           
+    </div>
+    <div class="form-group">
+
         <input type="email" name="email" placeholder="Email" class="form-control" formControlName="email"
             [ngClass]="{ 'is-invalid': submitted && f.email.errors }" />
             <div *ngIf="submitted && f.email.errors" class="invalid-feedback">

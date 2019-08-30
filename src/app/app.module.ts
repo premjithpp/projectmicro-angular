@@ -30,7 +30,7 @@ import { AdminHeaderComponent } from './admin-header/admin-header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 
-
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,7 +64,8 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
